@@ -194,7 +194,7 @@ Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-
 
 Até semana que vem, um beijo!
 
-## Comandos e conceitos básicos de Git e GitHub
+## Comandos e conceitos básicos de Git e GitHub (guia rápido)
 * git init : inicializa um repositório local na máquina em que se está desenvolvendo
 * git status : mostra os arquivos que estão e que não estão prontos para serem "comitados"
 * git add 'file' ou '.' : prepara os arquivos para o "commit" (versionamento)
@@ -214,14 +214,11 @@ Até semana que vem, um beijo!
 * git commit -m "mensagem"
 * git push origin 'main' ou 'nome da branch'
 
-OBS.: é importante observar em qual diretório se está e qual será enviado via git para o github.
 
-OBS.: branches são como caminhos de desenvolvimento, onde podemos criar ou atualizar partes específicas do projeto.
-
-OBS.: o git bash (terminal do git) mostra onde "estamos" dentro do projeto com o nome da branch entre parênteses.
-
-OBS.: origin é um nome padrão dado ao repositório do github, entretanto não está limitado a esse nome.
-
-OBS.: pull request serve para que sugestões de alteração possam ser enviadas para o dono do repositório.
-
-OBS.: aspas simples significa que as mesmas não devem aparecer no comando, já as aspas duplas são necessárias.
+# Observações
+* OBS.: é importante observar em qual diretório se está e qual será enviado via git para o github.
+* OBS.: branches são como caminhos de desenvolvimento, onde podemos criar ou atualizar partes específicas do projeto.
+* OBS.: o git bash (terminal do git) mostra onde "estamos" dentro do projeto com o nome da branch entre parênteses.
+* OBS.: origin é um nome padrão dado ao repositório do github, entretanto não está limitado a esse nome.
+* OBS.: pull request serve para que sugestões de alteração possam ser enviadas para o dono do repositório.
+* OBS.: aspas simples significa que as mesmas não devem aparecer no comando, já as aspas duplas são necessárias.
