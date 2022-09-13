@@ -193,3 +193,30 @@ Recomendo sempre vocês darem uma olhada na [documentação do Git](https://git-
 **Não esqueçam de deixar o like e se inscrever no [canal do Youtube](https://youtube.com/RafaellaBallerini) ❤**
 
 Até semana que vem, um beijo!
+
+## Comandos e conceitos básicos de Git e GitHub
+> git init : inicializa um repositório local na máquina em que se está desenvolvendo
+> git status : mostra os arquivos que estão e que não estão prontos para serem "comitados"
+> git add 'file' ou '.' : prepara os arquivos para o "commit" (versionamento)
+> git commit -m "mensagem" : cria um ponto na história dos arquivos (versiona os arquivos)
+> git branch -M "main" : renomeia a branch principal de master para main
+> git remote add origin 'link repositório do github' : faz o link entre o repositório local com o do github
+> git push -u origin main : empurra os arquivos do repositório local para o do github
+> git checkout -b "nome da nova branch" : cria uma nova branch "paralela" a branch principal do projeto
+> git push origin 'nome da branch' : envia os arquivos para a branch desejada para o repositório do github
+> git checkout 'main' ou 'nome da branch' : altera para as diferentes branches do projeto
+> git merge 'nome da branch' : mescla os arquivos/atualizações de uma branch para a branch principal
+> git clone 'link repositório do github' : puxa todos os arquivos do repositório github para su máquina local
+> git pull : puxa todas as alterações feitas no repositório
+
+# Comandos rotineiros para atualização do repositório
+> git add 'file' ou '.'
+> git commit -m "mensagem"
+> git push origin 'main' ou 'nome da branch'
+
+OBS.: é importante observar em qual diretório se está e qual será enviado via git para o github.
+OBS.: branches são como caminhos de desenvolvimento, onde podemos criar ou atualizar partes específicas do projeto.
+OBS.: o git bash (terminal do git) mostra onde "estamos" dentro do projeto com o nome da branch entre parênteses.
+OBS.: origin é um nome padrão dado ao repositório do github, entretanto não está limitado a esse nome.
+OBS.: pull request serve para que sugestões de alteração possam ser enviadas para o dono do repositório.
+OBS.: aspas simples significa que as mesmas não devem aparecer no comando, já as aspas duplas são necessárias.
